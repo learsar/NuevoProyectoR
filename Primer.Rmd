@@ -12,6 +12,7 @@ output:
 Vamos a definir la función para calcular Shannon
 
 ```{r}
+source("R/functions.r")
 
 p <- c(10, 200, 1000, 50)
 
