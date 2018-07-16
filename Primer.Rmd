@@ -2,7 +2,9 @@
 title: "Probando Rmd"
 author: "L.A.S."
 date: "July 16, 2018"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 # Mi primer R markdown
@@ -13,18 +15,7 @@ Vamos a definir la función para calcular Shannon
 
 p <- c(10, 200, 1000, 50)
 
-shannon <- function(species) 
-{
-  prop <- species/sum(species)   # calcula proporciones
-
-  s <- -sum(prop* log(prop))     # calcula shannon
-  
-  return(s)                      # devuelve shannon
-}
-
-
-
-shannon(popo)
+shannon(p)
 
 ```
 
