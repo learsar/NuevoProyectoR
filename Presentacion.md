@@ -3,13 +3,14 @@ output:
   html_document: default
   pdf_document: default
 ---
-# Este es el titulo del documento
 
-Este es un *documento* para aprender **markdown**
+# Este es el titulo muy aburrido del documento
+
+Este es un *documento* mas aburrido para aprender **markdown**
 
 ## Introduccion
 
-La ciencia abierta tiene 4 pilares
+La ciencia abierta tiene 4 pilares aburridos
 
 * Resultados abiertos
 
